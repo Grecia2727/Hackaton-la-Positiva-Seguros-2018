@@ -1,0 +1,119 @@
+.hidden {
+  display: none; 
+} 
+
+body {
+  background-position: top center;
+  font-family: Quicksand;
+  color: #689f38;
+}
+
+.text-area {
+  width:100% ;
+  padding: 10px;
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  border: solid #aed86f 1px;
+  margin: 20px auto;
+  margin-top: 50px;
+  resize: none;
+}
+
+.send-post {
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: rgb(121, 121, 121);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.boton-send-post {
+  width:50%;
+  background-color:olive;  
+  border: 0px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(83, 83, 83, 0.2);
+  color: #ffffff;  
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.actions {
+  text-align: right;
+  display: flow-root;
+}
+
+.count-like {
+  display: inline;
+  margin: 10px;
+}
+
+.show-post {
+  padding: 15px;
+  margin: 10px;
+}
+
+.textarea-post {
+  border: white;
+  background-color: white;
+  grid-row: auto;
+  min-height: 100px;
+}
+
+.bot {
+  width:180px;
+  padding: auto;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  text-align: center;
+  color: #ffffff;
+  align-content: right;  
+ }
+
+ .post2 {
+   padding: 20px;
+   margin: 25px;
+   margin-top: 5px;
+   min-height: 100px;
+ }
+
+.btn-publicar{
+  width: 50%;
+}
+
+
+.center{
+    text-align: center;
+  }
+
+.red-message {
+  color: red;
+  font-weight: 600;
+  padding: 5px;
+  margin: 10px;
+}
+
+.slogan-login {
+  color:#bd8e9c;  
+  font-weight: 550;
+  font-size: 20px;
+  margin: 50px;
+  margin-bottom: 0px;
+}
+
+.m-height{
+  min-height: 100px;
+}
+
+.card-post{
+  height: auto;
+}
+
+.select-wrapper input.select-dropdown {
+  font-size: 14px;
+  color: #727272;
+ }
