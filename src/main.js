@@ -1,6 +1,7 @@
 const faceButton = document.getElementById('faceButton');
 const googleButton = document.getElementById('googleButton');
 const registerButton = document.getElementById('registerButton');
+const volverButton = document.getElementById('volverButton');
 const loginButton = document.getElementById('loginButton');
 const formInicio = document.getElementById('formInicio');
 const formRegister = document.getElementById('formRegister');
@@ -28,6 +29,18 @@ if (registerLink != null) {
     validInputs.innerHTML = '';
   })
 }
+
+// ***************** Volver (regresar atrás)  ************************
+if (volverButton != null) {
+  volverButton.addEventListener('click', () => {
+    formRegister.classList.add('hidden');
+    formInicio.classList.remove('hidden');
+    validInputs2.value = '';
+    emailLogin.value = '';
+    passwordLogin.value = '';
+  })
+}
+
 
 // ***************** Registra datos  ************************
 if (registerButton != null) {
